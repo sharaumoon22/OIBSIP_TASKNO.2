@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Title of Page -->
+    <title>Profile Page</title>
+    
+    <!-- CSS for this page -->
+    <link rel="stylesheet" href="css/css_for_profile_page.css">
+
+    <script src="https://kit.fontawesome.com/f635a28c1e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Header section -->
+    <header class="myheader">
+        <nav class="navbar">
+            <a class="title" href="/profile_page_with_css.html">My Profile</a>
+        </nav>
+    </header>
+    
+    <section class="content">
+        <div class="row">
+            <!-- Personal Details and Profile picture Section -->
+            <div class="starter">
+                <div class="avatar">
+                    <img id="avatar" src="media/Sharau.jpg" alt="Sharau" width="90" height="90" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+                </div>
+                <div class="forimage" align="center">
+                    <br><br>
+                    <strong class="heading" >Personal Details</strong> 
+                    <table class="personaldetails">
+                        <tr> <td><b>First Name</b></td><td>Sharau</td> </tr>
+                        <tr> <td><b>Last Name</b></td><td>Moon</td> </tr>
+                        <tr> <td width="100"><b>Email</b></td><td><a href="mailto:sharaumoon001@gmail.com">sharaumoon001@gmail.com</a></td> </tr>
+                        <tr> <td><b>Mobile</b></td><td>9865425631</td> </tr>
+                        <tr> <td><b>Address</b></td><td>Nagpur, Maharashtra</td> </tr>
+                    </table>
+                </div>
+            </div>
+
+            
+        <!-- Skills and Projects Section -->
+        <div class="mysection">
+            <strong class="heading">Skills and Projects</strong> 
+            <div class="row">
+                <details open>
+                    <summary>Programming Languages</summary>
+                    <ul>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>App Development</summary>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>Android Studio</li>
+                        <li>Flutter</li>
+                    </ul>
+                </details>
+            </div>
+            <div class="row">
+                <details>
+                    <summary>Web Development</summary>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>PHP</li>
+                        <li>Laravel Framework</li>
+                        <li>React Framework</li>
+                        <li>Flask Framework</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Soft Skills</summary>
+                    <ul>
+                        <li>Active listening</li>
+                        <li>Teamwork</li>
+                        <li>Discipline</li>
+                        <li>Time Management</li>
+                        <li>Attention to Detail</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Projects</summary>
+                    <ul>
+                        <li>E-Commerce App</li>
+                        <li>Student Details App</li>
+                        <li>Examination System</li>
+                    </ul>
+                </details>
+            </div>
+        </div>
+        
+        <!-- Video player and Social media links-->
+        <div class="row">
+            <div class="mysection" >
+                <center>
+                <video controls autoplay muted loop style="height:15rem;">
+                    <source src="media/video.mov" type="video/mp4">
+                </video>
+            </center>
+            </div>
+            <div class="mysection">
+                <h2 class="heading">Socials</h2> 
+                <i class="fab fa-twitter"></i> <a href="#">Twitter</a><br>
+                <i class="fab fa-github"></i> <a href="#">Github</a><br>
+                <i class="fab fa-linkedin"></i> <a href="#">Linkedin</a><br>
+                <i class="fab fa-instagram"></i> <a href="#">Instagram</a><br>
+                <i class="fab fa-facebook"></i> <a href="#">Facebook</a><br>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

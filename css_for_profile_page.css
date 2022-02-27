@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap");
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+    background-attachment: fixed;
+}
+
+.myheader {
+    padding: 10px 30px 10px 20px;
+    top:0;
+    left:0;
+    width:97vw;
+    position:fixed;
+    background-color: white;
+    z-index:2;
+    
+}
+
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between; 
+}
+
+.contactme{
+    float:right;
+}
+
+.content{
+    width:auto;
+    margin-top: 70px;;
+    padding: 10px;
+    display:flex;
+    flex-direction:column;
+}
+
+.row {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    
+}
+
+.row > * {
+    flex: 1 1 0;
+}
+
+.title{
+    
+    font-weight: bolder;
+    font-size:29px;
+    text-decoration: none;
+    color:blueviolet;
+}
+
+.title:hover {
+    color:indigo;
+}
+
+.heading{
+    
+    font-weight: bolder;
+    font-size:23px;
+    text-decoration: none;
+    color:blueviolet;
+}
+
+#avatar{
+    background-color: white;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    position:relative;
+    z-index:1;
+}
+
+.forimage{
+    background-color: white;
+    border-radius: 20px;
+    margin:30px;
+    margin-top: -50px;
+    /* margin-bottom: 50px; */
+    padding:20px;
+    box-shadow: 3px 3px 15px indigo;
+    width:auto;
+    position:relative;
+    z-index:0;
+}
+
+.mysection{
+    background-color: white;
+    border-radius: 20px;
+    margin:30px;
+    /* margin-bottom: 50px; */
+    padding:20px;
+    box-shadow: 3px 3px 15px indigo;
+    width:auto;
+    position:relative;
+    z-index:0;
+}
+
+.img-raised {
+    box-shadow: 0 15px 15px -8px rgba(0,0,0,.24), 0 18px 10px -5px rgba(0,0,0,.2);
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+.img-fluid, .img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+
+.personaldetails, th, td{
+   
+    margin:20px;
+    border-radius: 20px;
+}
+
+.personaldetails td {
+    padding:10px;
+}
+
+.blurred-bg{
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    background-image: url('../media/programmer4.jpg');
+    width: 100%;
+    height: 310px;
+    box-shadow: 0 0 10px 10px white inset;
+}
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+    margin:10px;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
